@@ -22,7 +22,7 @@ export function groupFlags(inv: ProcessedInvoice): GroupedFlags {
       missingRule.push(item.flag)
     } else if (item.bucket === 'manual') {
       manual.push(
-        `${item.service}: ${formatMoney(item.usdAmount)} — code in Expensify`,
+        `${item.service}: ${formatMoney(item.usdAmount)} - code in Expensify`,
       )
     }
   }
@@ -38,7 +38,7 @@ export function groupFlags(inv: ProcessedInvoice): GroupedFlags {
     const explainedByExpense =
       inv.employeeExpenses > 0 && Math.abs(inv.check - inv.employeeExpenses) < 0.01
     if (!explainedByExpense) {
-      checkNote = `Check is ${formatMoney(inv.check)} — totals do not reconcile`
+      checkNote = `Check is ${formatMoney(inv.check)} - totals do not reconcile`
     }
   }
 
@@ -88,7 +88,7 @@ export function summaryNote(inv: ProcessedInvoice): string {
 
   if (grouped.manual.length > 0) {
     const total = inv.employeeExpenses
-    parts.push(`Employee expense ${formatMoney(total)} — code in Expensify`)
+    parts.push(`Employee expense ${formatMoney(total)} - code in Expensify`)
   }
 
   if (grouped.checkNote) {
@@ -99,7 +99,7 @@ export function summaryNote(inv: ProcessedInvoice): string {
     parts.push(grouped.errors[0])
   }
 
-  return parts.join(' · ') || 'Ready to export'
+  return parts.join('; ') || 'Ready to export'
 }
 
 export function sortInvoices(invoices: ProcessedInvoice[]): ProcessedInvoice[] {

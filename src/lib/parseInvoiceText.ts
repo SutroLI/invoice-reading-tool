@@ -86,7 +86,7 @@ export function parseInvoiceText(fileName: string, text: string): ParsedInvoice 
     text.match(/(D5170-[A-Z]{3}-\d{3})/)?.[1] ??
     ''
   const totalDue = parseAmount(
-    text.match(/Total Due in USD\n([\d,]+\.?\d*)/)?.[1] ?? '0',
+    text.match(/Total Due in USD(?:\s*\n\s*)+([\d,]+\.?\d*)/)?.[1] ?? '0',
   )
   const lineItems = parseLineItems(text)
 

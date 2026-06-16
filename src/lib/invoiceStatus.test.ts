@@ -71,6 +71,7 @@ describe('invoiceStatus', () => {
     expect(hasMappingIssues(inv)).toBe(true)
     expect(getInvoiceStatus(inv)).toBe('needs_review')
     expect(summaryNote(inv)).toContain('Missing mapping: Meal Allowance')
+    expect(summaryNote(inv)).not.toMatch(/[—·]/)
   })
 
   it('treats expensify-only invoices as manual status', () => {

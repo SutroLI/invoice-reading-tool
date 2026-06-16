@@ -162,6 +162,23 @@ describe('parseInvoiceText', () => {
     const parsed = parseInvoiceText('test.pdf', SAMPLE_1924355)
     expect(parsed.lineItems.some((li) => li.service === 'Meal Allowance')).toBe(true)
   })
+
+  it('parses total due when pdf.js inserts a blank line', () => {
+    const text = `Invoice 1919986
+D5170-CAN-002
+Conversion Rate
+MN 2026 05
+Compensation
+Base Salary
+CAD
+4,863.08
+3,656.37
+Total Due in USD
+ 
+5,665.47`
+    const parsed = parseInvoiceText('test.pdf', text)
+    expect(parsed.totalDue).toBe(5665.47)
+  })
 })
 
 describe('processInvoice', () => {

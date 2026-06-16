@@ -59,12 +59,13 @@ export function invoicesToCsv(invoices: ProcessedInvoice[]): string {
       .join(','),
   )
 
-  return [HEADERS.join(','), ...rows].join('\n')
+  // UTF-8 BOM helps Excel on Mac/Windows open the file with correct encoding
+  return `\uFEFF${[HEADERS.join(','), ...rows].join('\n')}`
 }
 
 export function downloadCsv(invoices: ProcessedInvoice[], filename: string): void {
   const csv = invoicesToCsv(invoices)
-  const blob = new Blob([csv], { type: 'text/csv;charset=utf-8;' })
+  const blob = new Blob([csv], { type: 'text/csv;charset=utf-8' })
   const url = URL.createObjectURL(blob)
   const link = document.createElement('a')
   link.href = url
