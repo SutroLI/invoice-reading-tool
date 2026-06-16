@@ -232,8 +232,22 @@
     },
     {
       "peblServiceItem": "Work-From-Home Allowance",
+      "description": null,
+      "invoiceNumber": null,
+      "xeroAccount": "5120 Benefits - International Staff",
+      "xeroDepartment": "400 - Shared Org Costs"
+    },
+    {
+      "peblServiceItem": "Work-From-Home Allowance",
       "description": "D5170-BEL-001",
       "invoiceNumber": "1806951",
+      "xeroAccount": "5120 Benefits - International Staff",
+      "xeroDepartment": "400 - Shared Org Costs"
+    },
+    {
+      "peblServiceItem": "Phone Allowance",
+      "description": null,
+      "invoiceNumber": null,
       "xeroAccount": "5120 Benefits - International Staff",
       "xeroDepartment": "400 - Shared Org Costs"
     },
@@ -246,8 +260,22 @@
     },
     {
       "peblServiceItem": "Health Insurance Allowance",
+      "description": null,
+      "invoiceNumber": null,
+      "xeroAccount": "5120 Benefits - International Staff",
+      "xeroDepartment": "400 - Shared Org Costs"
+    },
+    {
+      "peblServiceItem": "Health Insurance Allowance",
       "description": "D5170-AUS-001",
       "invoiceNumber": "1807401",
+      "xeroAccount": "5120 Benefits - International Staff",
+      "xeroDepartment": "400 - Shared Org Costs"
+    },
+    {
+      "peblServiceItem": "Pension Allowance",
+      "description": null,
+      "invoiceNumber": null,
       "xeroAccount": "5120 Benefits - International Staff",
       "xeroDepartment": "400 - Shared Org Costs"
     },
@@ -267,6 +295,13 @@
     },
     {
       "peblServiceItem": "EOR Service Fee",
+      "description": null,
+      "invoiceNumber": null,
+      "xeroAccount": "5130 - PEO Expenses - International Staff",
+      "xeroDepartment": "400 - Shared Org Costs"
+    },
+    {
+      "peblServiceItem": "VAT",
       "description": null,
       "invoiceNumber": null,
       "xeroAccount": "5130 - PEO Expenses - International Staff",
@@ -295,8 +330,22 @@
     },
     {
       "peblServiceItem": "Bonus (V/A)",
+      "description": null,
+      "invoiceNumber": null,
+      "xeroAccount": "5100 - Compensation International Staff",
+      "xeroDepartment": "400 - Shared Org Costs"
+    },
+    {
+      "peblServiceItem": "Bonus (V/A)",
       "description": "D5170-IDN-001",
       "invoiceNumber": "1803695",
+      "xeroAccount": "5100 - Compensation International Staff",
+      "xeroDepartment": "400 - Shared Org Costs"
+    },
+    {
+      "peblServiceItem": "Compensation (V/A)",
+      "description": "Base Salary",
+      "invoiceNumber": null,
       "xeroAccount": "5100 - Compensation International Staff",
       "xeroDepartment": "400 - Shared Org Costs"
     },

@@ -205,4 +205,75 @@ describe('processInvoice', () => {
     expect(result.employeeExpenses).toBe(115.28)
     expect(result.check).toBe(115.28)
   })
+
+  it('codes Netherlands allowances to 5120 with generic rules', () => {
+    const text = `Invoice Date: 2/20/2026
+Due Date: 2/24/2026
+Invoice 1840333
+Employee
+Contract Currency
+Payment Currency
+D5170-NLD-001
+Conversion Rate
+Euro
+US Dollar
+1.214288
+MN 2026 02
+Compensation
+Base Salary
+EUR
+8,218.69
+9,979.85
+MN 2026 02
+Employment Cost
+Employment Cost
+EUR
+3,214.29
+3,903.06
+MN 2026 02
+Health Insurance Allowance
+Health Insurance Allowance
+EUR
+300.00
+364.29
+MN 2026 02
+Phone Allowance
+Phone Allowance
+EUR
+200.00
+242.86
+MN 2026 02
+Work-From-Home Allowance
+Work-From-Home Allowance
+EUR
+100.00
+121.43
+Fees
+MN 2026 02
+Benefits Cost
+Benefits Cost | MSH | Life | Mar 2026
+USD
+46.08
+46.08
+MN 2026 02
+EOR Service Fee
+Monthly International Fee
+USD
+599.00
+599.00
+MN 2026 02
+Wire Transfer Fee
+Wire Transfer Fee (Netherlands)
+USD
+45.00
+45.00
+Total Due in USD
+ 
+15,301.57`
+    const parsed = parseInvoiceText('test.pdf', text)
+    const result = processInvoice(parsed)
+    expect(result.employeeName).toBe('Laurie van der Burg')
+    expect(result.bucket5120).toBe(4677.72)
+    expect(result.check).toBe(0)
+  })
 })
