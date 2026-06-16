@@ -1,0 +1,395 @@
+{
+  "employees": [
+    {
+      "contractId": "D5170-AUS-001",
+      "firstName": "David",
+      "lastName": "Tong",
+      "country": "Australia"
+    },
+    {
+      "contractId": "D5170-BEL-001",
+      "firstName": "Myriam",
+      "lastName": "Douo",
+      "country": "Belgium"
+    },
+    {
+      "contractId": "D5170-BEL-002",
+      "firstName": "Mahir",
+      "lastName": "Ilgaz",
+      "country": "Belgium"
+    },
+    {
+      "contractId": "D5170-CAN-001",
+      "firstName": "Bronwen",
+      "lastName": "Tucker",
+      "country": "Canada"
+    },
+    {
+      "contractId": "D5170-CAN-002",
+      "firstName": "Claire",
+      "lastName": "O'Manique",
+      "country": "Canada"
+    },
+    {
+      "contractId": "D5170-FRA-001",
+      "firstName": "Romain",
+      "lastName": "Ioualalen",
+      "country": "France"
+    },
+    {
+      "contractId": "D5170-FRA-002",
+      "firstName": "Katharina",
+      "lastName": "Rall",
+      "country": "France"
+    },
+    {
+      "contractId": "D5170-IDN-001",
+      "firstName": "Hikmat",
+      "lastName": "Suriatanuwijaya",
+      "country": "Indonesia"
+    },
+    {
+      "contractId": "D5170-JPN-001",
+      "firstName": "Makiko",
+      "lastName": "Arima",
+      "country": "Japan"
+    },
+    {
+      "contractId": "D5170-JPN-002",
+      "firstName": "Mia Hilda",
+      "lastName": "Watanabe",
+      "country": "Japan"
+    },
+    {
+      "contractId": "D5170-JPN-003",
+      "firstName": "Camille",
+      "lastName": "Waller",
+      "country": "Japan"
+    },
+    {
+      "contractId": "D5170-KEN-001",
+      "firstName": "Charity",
+      "lastName": "Migwi",
+      "country": "Kenya"
+    },
+    {
+      "contractId": "D5170-KEN-002",
+      "firstName": "Terry",
+      "lastName": "Githinji",
+      "country": "Kenya"
+    },
+    {
+      "contractId": "D5170-NLD-001",
+      "firstName": "Laurie",
+      "lastName": "van der Burg",
+      "country": "Netherlands"
+    },
+    {
+      "contractId": "D5170-NLD-002",
+      "firstName": "Maria Alejandra",
+      "lastName": "Vesga Correa",
+      "country": "Netherlands"
+    },
+    {
+      "contractId": "D5170-NLD-003",
+      "firstName": "Andres Camilo",
+      "lastName": "Rodr\u00c3\u00adguez",
+      "country": "Netherlands"
+    },
+    {
+      "contractId": "D5170-NLD-004",
+      "firstName": "Shady",
+      "lastName": "Khalil",
+      "country": "Netherlands"
+    },
+    {
+      "contractId": "D5170-NLD-005",
+      "firstName": "David Benjamin",
+      "lastName": "Hirsch",
+      "country": "Netherlands"
+    },
+    {
+      "contractId": "D5170-NOR-001",
+      "firstName": "Silje Ask",
+      "lastName": "Lundberg",
+      "country": "Norway"
+    },
+    {
+      "contractId": "D5170-NOR-002",
+      "firstName": "Aled Dilwyn",
+      "lastName": "Fisher",
+      "country": "Norway"
+    },
+    {
+      "contractId": "D5170-PHL-001",
+      "firstName": "Rowena",
+      "lastName": "Cahiles",
+      "country": "Philippines"
+    },
+    {
+      "contractId": "D5170-KOR-001",
+      "firstName": "Jungmin",
+      "lastName": "Ro",
+      "country": "Republic of Korea"
+    },
+    {
+      "contractId": "D5170-ZAF-001",
+      "firstName": "Nicole",
+      "lastName": "Rodel",
+      "country": "South Africa"
+    },
+    {
+      "contractId": "D5170-GBR-002",
+      "firstName": "Andy",
+      "lastName": "Rowell",
+      "country": "United Kingdom"
+    }
+  ],
+  "services": [
+    {
+      "peblServiceItem": "Bonus",
+      "description": null,
+      "invoiceNumber": null,
+      "xeroAccount": "5100 - Compensation International Staff",
+      "xeroDepartment": "400 - Shared Org Costs"
+    },
+    {
+      "peblServiceItem": "Compensation",
+      "description": "Base Salary",
+      "invoiceNumber": null,
+      "xeroAccount": "5100 - Compensation International Staff",
+      "xeroDepartment": "400 - Shared Org Costs"
+    },
+    {
+      "peblServiceItem": "Compensation",
+      "description": "Business Cash Allowance",
+      "invoiceNumber": "1904707",
+      "xeroAccount": "5120 Benefits - International Staff",
+      "xeroDepartment": "400 - Shared Org Costs"
+    },
+    {
+      "peblServiceItem": "Compensation",
+      "description": "Monthly Financial Reserve",
+      "invoiceNumber": "1904707",
+      "xeroAccount": "5120 Benefits - International Staff",
+      "xeroDepartment": "400 - Shared Org Costs"
+    },
+    {
+      "peblServiceItem": "Compensation",
+      "description": "Social Security Gross Up",
+      "invoiceNumber": "1904707",
+      "xeroAccount": "5120 Benefits - International Staff",
+      "xeroDepartment": "400 - Shared Org Costs"
+    },
+    {
+      "peblServiceItem": "Compensation",
+      "description": "Employer Social Contributions Advance Payment",
+      "invoiceNumber": "1904707",
+      "xeroAccount": "5120 Benefits - International Staff",
+      "xeroDepartment": "400 - Shared Org Costs"
+    },
+    {
+      "peblServiceItem": "Employee Expense",
+      "description": null,
+      "invoiceNumber": null,
+      "xeroAccount": "Depends on Expensify Reports",
+      "xeroDepartment": "Depends on Expensify Reports"
+    },
+    {
+      "peblServiceItem": "Employment Cost",
+      "description": null,
+      "invoiceNumber": null,
+      "xeroAccount": "5120 Benefits - International Staff",
+      "xeroDepartment": "400 - Shared Org Costs"
+    },
+    {
+      "peblServiceItem": "Expense to be Grossed Up",
+      "description": null,
+      "invoiceNumber": null,
+      "xeroAccount": "5120 Benefits - International Staff",
+      "xeroDepartment": "400 - Shared Org Costs"
+    },
+    {
+      "peblServiceItem": "Expense to be Grossed Up",
+      "description": "D5170-KEN-002",
+      "invoiceNumber": "1801117",
+      "xeroAccount": "5120 Benefits - International Staff",
+      "xeroDepartment": "400 - Shared Org Costs"
+    },
+    {
+      "peblServiceItem": "Expense to be Taxable",
+      "description": "D5170-FRA-001",
+      "invoiceNumber": "1812370",
+      "xeroAccount": "5120 Benefits - International Staff",
+      "xeroDepartment": "400 - Shared Org Costs"
+    },
+    {
+      "peblServiceItem": "Meal Allowance",
+      "description": null,
+      "invoiceNumber": null,
+      "xeroAccount": null,
+      "xeroDepartment": null
+    },
+    {
+      "peblServiceItem": "Work-From-Home Allowance",
+      "description": "D5170-BEL-001",
+      "invoiceNumber": "1806951",
+      "xeroAccount": "5120 Benefits - International Staff",
+      "xeroDepartment": "400 - Shared Org Costs"
+    },
+    {
+      "peblServiceItem": "Phone Allowance",
+      "description": "D5170-NLD-001",
+      "invoiceNumber": "1810741",
+      "xeroAccount": "5120 Benefits - International Staff",
+      "xeroDepartment": "400 - Shared Org Costs"
+    },
+    {
+      "peblServiceItem": "Health Insurance Allowance",
+      "description": "D5170-AUS-001",
+      "invoiceNumber": "1807401",
+      "xeroAccount": "5120 Benefits - International Staff",
+      "xeroDepartment": "400 - Shared Org Costs"
+    },
+    {
+      "peblServiceItem": "Pension Allowance",
+      "description": "D5170-ZAF-001",
+      "invoiceNumber": "1810744",
+      "xeroAccount": "5120 Benefits - International Staff",
+      "xeroDepartment": "400 - Shared Org Costs"
+    },
+    {
+      "peblServiceItem": "Benefits Cost",
+      "description": null,
+      "invoiceNumber": null,
+      "xeroAccount": "5120 Benefits - International Staff",
+      "xeroDepartment": "400 - Shared Org Costs"
+    },
+    {
+      "peblServiceItem": "EOR Service Fee",
+      "description": null,
+      "invoiceNumber": null,
+      "xeroAccount": "5130 - PEO Expenses - International Staff",
+      "xeroDepartment": "400 - Shared Org Costs"
+    },
+    {
+      "peblServiceItem": "VAT",
+      "description": "D5170-IDN-001",
+      "invoiceNumber": "1803695",
+      "xeroAccount": "5130 - PEO Expenses - International Staff",
+      "xeroDepartment": "400 - Shared Org Costs"
+    },
+    {
+      "peblServiceItem": "Wire Transfer Fee",
+      "description": null,
+      "invoiceNumber": null,
+      "xeroAccount": "5130 - PEO Expenses - International Staff",
+      "xeroDepartment": "400 - Shared Org Costs"
+    },
+    {
+      "peblServiceItem": "Benefits Payment",
+      "description": "D5170-KEN-002",
+      "invoiceNumber": "1801117",
+      "xeroAccount": "5120 Benefits - International Staff",
+      "xeroDepartment": "400 - Shared Org Costs"
+    },
+    {
+      "peblServiceItem": "Bonus (V/A)",
+      "description": "D5170-IDN-001",
+      "invoiceNumber": "1803695",
+      "xeroAccount": "5100 - Compensation International Staff",
+      "xeroDepartment": "400 - Shared Org Costs"
+    },
+    {
+      "peblServiceItem": "Compensation (V/A)",
+      "description": "D5170-IDN-001",
+      "invoiceNumber": "1803695",
+      "xeroAccount": "5100 - Compensation International Staff",
+      "xeroDepartment": "400 - Shared Org Costs"
+    },
+    {
+      "peblServiceItem": "Employee Expense (V/A)",
+      "description": "D5170-IDN-001",
+      "invoiceNumber": "1803695",
+      "xeroAccount": "5120 Benefits - International Staff",
+      "xeroDepartment": "400 - Shared Org Costs"
+    },
+    {
+      "peblServiceItem": "Leave Payment",
+      "description": "D5170-FRA-001",
+      "invoiceNumber": "1812370",
+      "xeroAccount": "5120 Benefits - International Staff",
+      "xeroDepartment": "400 - Shared Org Costs"
+    },
+    {
+      "peblServiceItem": "Mandatory Work From Home Allowance (tax-free)",
+      "description": "D5170-FRA-001",
+      "invoiceNumber": "1812370",
+      "xeroAccount": "5120 Benefits - International Staff",
+      "xeroDepartment": "400 - Shared Org Costs"
+    },
+    {
+      "peblServiceItem": "Mandatory Work From Home Allowance (taxable)",
+      "description": "D5170-FRA-001",
+      "invoiceNumber": "1812370",
+      "xeroAccount": "5120 Benefits - International Staff",
+      "xeroDepartment": "400 - Shared Org Costs"
+    },
+    {
+      "peblServiceItem": "Vacation Accrual (Payout)",
+      "description": "D5170-CAN-002",
+      "invoiceNumber": "1888755",
+      "xeroAccount": "5120 Benefits - International Staff",
+      "xeroDepartment": "400 - Shared Org Costs"
+    },
+    {
+      "peblServiceItem": "International Processing Fee (Wire Fee)",
+      "description": null,
+      "invoiceNumber": null,
+      "xeroAccount": "5130 - PEO Expenses - International Staff",
+      "xeroDepartment": "400 - Shared Org Costs"
+    },
+    {
+      "peblServiceItem": "International Processing Fee (Wire Fee)",
+      "description": "D5170-CAN-001",
+      "invoiceNumber": "1888900",
+      "xeroAccount": "5130 - PEO Expenses - International Staff",
+      "xeroDepartment": "400 - Shared Org Costs"
+    },
+    {
+      "peblServiceItem": "Maternity Leave Payment",
+      "description": "D5170-FRA-001",
+      "invoiceNumber": "1904707",
+      "xeroAccount": "5120 Benefits - International Staff",
+      "xeroDepartment": "400 - Shared Org Costs"
+    },
+    {
+      "peblServiceItem": "Vacation Payout",
+      "description": "D5170-FRA-002",
+      "invoiceNumber": "1904708",
+      "xeroAccount": "5120 Benefits - International Staff",
+      "xeroDepartment": "400 - Shared Org Costs"
+    },
+    {
+      "peblServiceItem": "Employer Meal Vouchers Contribution",
+      "description": "D5170-BEL-001",
+      "invoiceNumber": "1910482",
+      "xeroAccount": "5120 Benefits - International Staff",
+      "xeroDepartment": "400 - Shared Org Costs"
+    },
+    {
+      "peblServiceItem": "Employer Social Insurance Contribution",
+      "description": "D5170-BEL-001",
+      "invoiceNumber": "1910482",
+      "xeroAccount": "5120 Benefits - International Staff",
+      "xeroDepartment": "400 - Shared Org Costs"
+    },
+    {
+      "peblServiceItem": "Employer Taxes",
+      "description": "D5170-GBR-002",
+      "invoiceNumber": "1910547",
+      "xeroAccount": "5120 Benefits - International Staff",
+      "xeroDepartment": "400 - Shared Org Costs"
+    }
+  ]
+}
